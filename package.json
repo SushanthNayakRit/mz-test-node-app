@@ -5,5 +5,7 @@
   "dependencies": {},
   "scripts": {
     "start": "node app.js"
+    "deploy": "echo 'Deploying application...' && ./deploy_script.sh",
+    "manual_review": "echo 'Please perform a manual review before proceeding with deployment.'"
   }
 }
